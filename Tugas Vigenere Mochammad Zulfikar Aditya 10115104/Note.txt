@@ -1,0 +1,10 @@
+Mochammad Zulfikar Aditya
+10115104
+
+Program Vigenere ini akan mengubah pesan dengan bahasa Minang menjadi sebuah ciphertext atas sebuah kunci. Namun dalam prosesnya proses dekripsi tidak menggunakan kunci sebelumnya melainkan menebak kunci sebelumnya apa dengan beberapa prosedur pada kriptoanalisis Vigenere ini.
+
+Input akan berasal dari file text bernama input_asli.txt yang bisa diganti2 sesuai kehendak input apa yang ingin dimasukkan (disarankan bacaan atau teks berbahasa Minang mengingat frekuensi huruf yang digunakan ialah berbahasa minang)
+
+Proses penentuan panjang kunci digunakan Index of Coincidence yang akan didapatkan panjang kunci eksaknya. Jika telah didapat panjang kunci, ciphertext dibagi menjadi sejumlah panjang kunci cipher text berbeda untuk dianalisa frekuensi kemunculannya. Untuk menentukan frekuensi kemunculan yang paling sering, akan digunakan weighted mean dari frekuensi huruf tiap tiap bagian dari ciphertext yang telah terpartisi dan pergeserannya. Apabila ditemukan nilai "weighted mean" terbesar, maka pergeseran tersebut akan menjadi calon kunci kita.
+
+Dan langkah terakhir ialah dekripsi pesan dengan kunci yang telah didapat.
